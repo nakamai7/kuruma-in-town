@@ -1,1 +1,20 @@
-
+{
+  "variants": {
+    "facing=north": {
+      "model": "kuruma_in_town:block/gas_station",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "kuruma_in_town:block/gas_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kuruma_in_town:block/gas_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kuruma_in_town:block/gas_station",
+      "y": 270
+    }
+  }
+}
