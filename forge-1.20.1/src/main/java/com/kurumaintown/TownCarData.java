@@ -1,0 +1,41 @@
+package com.kurumaintown;
+
+public interface TownCarData {
+    float town$getEngine();
+    void town$setEngine(float value);
+    float town$getBody();
+    void town$setBody(float value);
+    float town$getBattery();
+    void town$setBattery(float value);
+    float town$getFuel();
+    void town$setFuel(float value);
+    float town$getMaxFuel();
+    void town$setMaxFuel(float value);
+    float town$getEngineMulti();
+    void town$setEngineMulti(float value);
+    float town$getBodyMulti();
+    void town$setBodyMulti(float value);
+    float town$getBatteryMulti();
+    void town$setBatteryMulti(float value);
+    float town$getFuelMulti();
+    void town$setFuelMulti(float value);
+    float town$getBaseFuel();
+    void town$setBaseFuel(float value);
+    int town$getCustom(String key);
+    int town$getCustomMax(String key);
+    void town$setCustom(String key, int value);
+    void town$setCustomMax(String key, int value);
+    float town$getArmor();
+    void town$setArmor(float value);
+    String town$getOwner();
+    void town$setOwner(String value);
+    int town$getJob();
+    void town$setJob(int value);
+    int town$getInGarage();
+    void town$setInGarage(int value);
+    String town$getCarNumber();
+    void town$setCarNumber(String value);
+    int town$getPaintColor();
+    void town$setPaintColor(int color);
+    void town$claim(String uuid);
+}
