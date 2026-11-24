@@ -1,1 +1,10 @@
-
+{
+  "itemGroup.kuruma_in_town.items": "Kuruma in Town",
+  "item.kuruma_in_town.tablet": "Vehicle Tablet",
+  "item.kuruma_in_town.repair_kit": "Repair Kit",
+  "block.kuruma_in_town.gas_station": "Gas Station",
+  "item.kuruma_in_town.color_spray": "Color Spray",
+  "item.kuruma_in_town.custom_tool": "Custom Tool",
+  "item.kuruma_in_town.garage": "Garage",
+  "item.kuruma_in_town.garage_admin": "Garage Management"
+}
