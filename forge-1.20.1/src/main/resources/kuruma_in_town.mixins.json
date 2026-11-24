@@ -1,1 +1,22 @@
-
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kurumaintown.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "kuruma_in_town.refmap.json",
+  "mixins": [
+    "CarEntityMixin",
+    "CarDismountPositionMixin",
+    "CarTuningAdminMixin",
+    "CarPhysicsReverseMixin",
+    "CarCoreCustomMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CarObjRendererPaintMixin",
+    "CarSoundEngineMixin",
+    "CarClientDriverAdminMixin"
+  ]
+}
