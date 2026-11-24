@@ -1,1 +1,80 @@
-
+{
+  "textures": {
+    "particle": "kuruma_in_town:block/gas_station_lower_side",
+    "lower_wide": "kuruma_in_town:block/gas_station_lower_wide",
+    "lower_side": "kuruma_in_town:block/gas_station_lower_side",
+    "lower_bottom": "kuruma_in_town:block/gas_station_lower_bottom",
+    "upper_wide": "kuruma_in_town:block/gas_station_upper_side",
+    "upper_side": "kuruma_in_town:block/gas_station_upper_wide",
+    "upper_top": "kuruma_in_town:block/gas_station_upper_top"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        4
+      ],
+      "to": [
+        15,
+        16,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#lower_bottom"
+        },
+        "up": {
+          "texture": "#lower_side"
+        },
+        "north": {
+          "texture": "#lower_wide"
+        },
+        "south": {
+          "texture": "#lower_wide"
+        },
+        "west": {
+          "texture": "#lower_side"
+        },
+        "east": {
+          "texture": "#lower_side"
+        }
+      },
+      "shade": false
+    },
+    {
+      "from": [
+        1,
+        16,
+        4
+      ],
+      "to": [
+        15,
+        32,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#upper_side"
+        },
+        "up": {
+          "texture": "#upper_top"
+        },
+        "north": {
+          "texture": "#upper_wide"
+        },
+        "south": {
+          "texture": "#upper_wide"
+        },
+        "west": {
+          "texture": "#upper_side"
+        },
+        "east": {
+          "texture": "#upper_side"
+        }
+      },
+      "shade": false
+    }
+  ],
+  "ambientocclusion": false
+}
